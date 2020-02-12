@@ -1,0 +1,277 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    justify-content: center;
+    display: flex;
+    height: 748px;
+}
+
+.block--mod {
+    position: absolute;
+    width: 100%;
+    height: 950px;
+    background-image: url(./assets/road-layered.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    background-position: -20%;
+    z-index: -1;
+}
+
+.block__wrapper {
+    width: 100%;
+    justify-content: center;
+}
+
+.block__nav {
+    position: fixed;
+    width: 100%;
+    height: 75px;    
+}
+
+.block__nav__dark {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px 1px rgb(206, 206, 206);
+    transition: all 0.5s ease-in-out;
+}
+
+.block__nav__links {
+    display: inline;
+    float: right;
+    padding: 6px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+    width: 125px;
+    text-align: center;
+    /* border-bottom: 3px solid transparent; */
+    transition: 0.7s;
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+.block__nav__links__dark {
+    color: rgb(110, 110, 110);
+    
+}
+
+.right-margin {
+    margin-right: 25px;
+}
+
+.block__nav__links:hover {
+    color: rgb(255, 238, 0);
+    /* border-bottom: 2px solid black; */
+}
+
+.block__nav__links__dark:hover {
+    /* border-bottom: 3px solid rgb(255, 238, 0); */
+}
+
+.block__name {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 255px;
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.block__description {
+    color: black;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Muli', sans-serif;
+}
+
+.block__button {
+    margin-top: 15px;
+    margin-right: 650px;
+    margin-left: 650px;
+    justify-content: center;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.block__button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 238, 0);
+}
+
+.block__two {
+    margin-top: -2px;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.block__two__wrapper {
+    
+}
+
+.block__two__header {
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+.block__two__description {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.block__three {
+    height: 1900px;
+}
+
+.block__header {
+    margin-bottom: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+.block__elem__header {
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 70px;
+}
+
+.block__three__wrapper {
+    height: 682px;
+    margin-top: 135px;
+    text-align: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.block__elem__code__display {
+    padding-left: 420px;
+    padding-right: 420px;
+}
+
+.timbers__screenshot {
+    width: 645px;
+    height: 350px;
+}
+
+.block__four {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 418px;
+}
+
+.block__four--mod {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/yosemite-layered.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    z-index: -1;
+}
+
+.block__four__wrap {
+    margin-top: 100px;
+}
+
+.block__four__head {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+.block__four__descrp {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.block__footer {
+    height: 300px;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+}
+
+.block__footer__elem {
+    
+}
+
+.block__footer__btn__wrap {
+    
+}
+
+.block__footer__button {
+    text-transform: uppercase;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 3px;
+    /* border: 1px solid rgb(255, 238, 0); */
+    /* transition: background-color .3s; */
+    transition:  .5s;
+    font-family: 'Muli', sans-serif;
+}
+
+.block__footer__button:hover {
+    background-color: rgb(255, 238, 0);
+    color: black;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;      
+}
+
+hr {
+    background-color: #c5c5c5;
+    width: 6%;
+    height: 0.0625em;
+    border: none;
+    margin-left: 47%;
+    margin-bottom: 1.5625em;
+}
+
