@@ -20,25 +20,26 @@
         <div class="block--mod"></div>
         <div class="block__wrapper">  
                 <div class="block__nav">
-                    <button class="block__nav__links right-margin">Portfolio</button>
-                    <button class="block__nav__links">About</button>
-                    <button class="block__nav__links">Contact</button>
+                    <a href="#portfolio"><button class="block__nav__links right-margin">Portfolio</button> </a>
+                    <a href="#about"><button class="block__nav__links">About</button> </a>
+                    <a href="mailto:cortland.taylor1@gmail.com"><button class="block__nav__links">Contact</button> </a>
                 </div>  
             <p class="block__name">
                 Cortland Taylor
             </p>
             <p class="block__description">
-                Porro delectus quia rem earum repellendus explicabo nostrum neque culpa voluptas sint voluptate, deleniti illum non voluptatibus nulla dolores consectetur similique mollitia?
+                I am a front-end web developer based in Southern California with a passion for learning and improving my skill set. 
             </p>
-            <button class="block__button">View My Work</button>
+            <a href="#portfolio"><button class="block__button">View My Work</button></a>
         </div>   
     </div>
 
+    <a id="portfolio"></a>
     <div class="block__two">
         <div class="block__two__wrapper">
             <h1 class="block__two__header">Portfolio</h1>
             <hr>
-            <p class="block__two__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error reprehenderit dolores consequatur iste minima doloremque consectetur explicabo necessitatibus magni quia?</p>
+            <p class="block__two__description">Below you'll find projects I've recently completed. They include personal projects, previous class projects and private client work as well.</p>
         </div>
     </div>
 
@@ -50,14 +51,16 @@
             <hr>
             <div class="block__elem">
                 <p class="block__elem__header">
-                    A trailer finder application built as part of a group project. The app utilized two seperate API's for trails and weather data. Firebase 
-                    was used for data storage.
+                    A hiking trail finder application built as part of a group project. The app utilized two seperate API's for finding trail and weather data while Firebase 
+                    was utilizedfor data storage. The user is able to search for trails either by entering a desired city or nearby the current location.
                 </p>
                 <p class="block__elem__descrip">
 
                 </p>
                 <div class="block__elem__code__display">
-                    <img class="timbers__screenshot" src="./assets/Tinder me Timbers.png" alt="">
+                    <a href="https://cortlandt1.github.io/TrailFinder/">
+                        <img class="timbers__screenshot" src="./assets/Tinder me Timbers.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>  
@@ -90,12 +93,12 @@
         
         <div class="block__three__wrapper">    
             <div class="block__header">
-                <h1>Portfolio</h1>
+                <h1>Train Scheduler Application</h1>
             </div>
             <hr>
             <div class="block__elem">
                 <h3 class="block__elem__header">
-                    Blank Text
+                    This application was developed as a model train scheduler. The application used Firebase for data storage and jQuery to append the inputted data onto the page. Basic mathematical calculations were implemented to calculate the predicted train times.
                 </h3>
                 <p class="block__elem__descrip">
 
@@ -112,6 +115,7 @@
         </div>
     </div>
     
+    <a id="about"></a>
     <div class="block__four">
         <div class="block__four--mod"></div>
         <div class="block__four__wrap">
@@ -119,7 +123,7 @@
                 Who am I?
             </h2>
             <p class="block__four__descrp">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, aperiam. Enim error deleniti sint atque totam esse quasi, aut voluptatibus molestias ratione! Obcaecati aspernatur architecto dolorem blanditiis, minima iusto distinctio.
+                I am a web-designer with a focus on front-end development. I am dedicated and hardworking with a passion for technology and programming. My focus is on developing aesthetically appealing applications that are compatible across all browsers and mobile devices. 
             </p>
         </div>
     </div>
@@ -129,9 +133,10 @@
 <footer class="block__footer">
     <div class="block__footer__elem">
         <div class="block__footer__btn__wrap">    
-            <button class="block__footer__button">Github</button>
-            <button class="block__footer__button">Contact</button>
+            <a style=" color: white;" href="https://github.com/cortlandt1" target="_blank"><button class="block__footer__button">Github</button></a>
+            <a style=" color: white;" href="mailto:cortland.taylor1@gmail.com" target="_blank"><button class="block__footer__button">Contact</button></a>
         </div>
+        <p style=" color: rgb(133, 133, 133);">This site was created by the hard work of yours truly with help of the fantastic framework <a target="_blank" href="https://getuikit.com/">UIkit</a></p>
 
     </div>
 </footer>
