@@ -293,3 +293,62 @@ a:hover {
     color: yellow;
 }
 
+
+/* MOBILE CONDITIONS */
+
+@media screen and (width: 375px) {
+    body {
+        max-width: 375px;
+    }
+
+    .block__button {
+        margin-left: 95px;
+        margin-right: 0px;
+    }
+
+    .block__nav {
+        display: none;
+    }
+
+    .block__name {
+        font-size: 39px;
+    }
+
+    .timbers__screenshot {
+        display: none;
+    }
+
+    .block__elem__code__display {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .block__description {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .block__two__description {
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+
+    .block__elem__header {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+
+    .block__four__descrp {
+        padding-left: 0px; 
+        padding-right: 0px; 
+        margin-bottom: 20px;
+    }
+
+    .block__four {
+        padding-bottom: 50px;
+    }
+
+    .block__four--mod {
+        height: 450px;
+    }
+  }
