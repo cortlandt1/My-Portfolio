@@ -316,7 +316,8 @@ a:hover {
     }
 
     .timbers__screenshot {
-        display: none;
+        width: 320px;
+        height: 256px;
     }
 
     .block__elem__code__display {
