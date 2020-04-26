@@ -30,12 +30,14 @@ html, body {
 }
 
 .block__nav {
+    z-index: 1;
     position: fixed;
     width: 100%;
     height: 75px;    
 }
 
 .block__nav__dark {
+    z-index: 1;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 1px 2px 1px rgb(206, 206, 206);
     transition: all 0.5s ease-in-out;
@@ -213,12 +215,13 @@ html, body {
     text-transform: uppercase;
     font-size: 34px;
     font-family: 'Hind Siliguri', sans-serif;
-
+    color: black;
 }
 
 .block__four__descrp {
     padding-left: 200px;
     padding-right: 200px;
+    color: black;
     font-family: 'Muli', sans-serif;
     text-align: center;
     font-weight: 500;
@@ -272,25 +275,20 @@ button {
     outline: inherit;      
 }
 
-hr {
-    background-color: #c5c5c5;
-    width: 6%;
-    height: 0.0625em;
-    border: none;
-    margin-left: 47%;
-    margin-bottom: 1.5625em;
+.uk-divider-small::after {
+    border-top: 1px solid rgb(184, 184, 184)!important;
 }
 
 a:active {
-    color: black;
+    color: black!important;
 }
 
 a:visited {
-    color: rgb(133, 133, 133)
+    color: rgb(59, 59, 59)!important;
 }
 
 a:hover {
-    color: yellow;
+    color: yellow!important;
 }
 
 

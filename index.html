@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Hind+Siliguri:400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
+    
     <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -38,17 +40,16 @@
     <div class="block__two">
         <div class="block__two__wrapper">
             <h1 class="block__two__header">Portfolio</h1>
-            <hr>
             <p class="block__two__description">Below you'll find projects I've recently completed. They include personal projects, previous class projects and private client work as well.</p>
         </div>
     </div>
 
-    <div class="block__three">
-        <div class="block__three__wrapper">    
+    <div class="block__three" >
+        <div class="block__three__wrapper" uk-scrollspy="cls: uk-animation-fade; repeat: false; delay: 400;">    
             <div class="block__header">
                 <h1>Tinder Me Timbers</h1>
             </div>
-            <hr>
+            <div class="uk-divider-small"></div>
             <div class="block__elem">
                 <p class="block__elem__header">
                     A hiking trail finder application built as part of a group project. The app utilized two seperate API's for finding trail and weather data while Firebase 
@@ -65,11 +66,11 @@
             </div>
         </div>  
 
-        <div class="block__three__wrapper">    
+        <div class="block__three__wrapper" uk-scrollspy="cls: uk-animation-fade; repeat: false; delay: 400;">    
             <div class="block__header">
                 <h1>GIF Appending Application</h1>
             </div>
-            <hr>
+            <div class="uk-divider-small"></div>
             <div class="block__elem">
                 <p class="block__elem__header">
                     An application written that utilizes AJAX requests to retrieve GIF animations from an open-source API and append the data on an HTML page via the jQuery framework.
@@ -88,11 +89,11 @@
             </div>
         </div>  
 
-        <div class="block__three__wrapper">    
+        <div class="block__three__wrapper" uk-scrollspy="cls: uk-animation-fade; repeat: false; delay: 400;">    
             <div class="block__header">
                 <h1>Hangman Javascript Game</h1>
             </div>
-            <hr>
+            <div class="uk-divider-small"></div>
             <div class="block__elem">
                 <p class="block__elem__header">
                     One of my first projects written in my fullstack course. The game was written using vanilla Javascript. I utilized for-loops as the main mechanism.
@@ -114,11 +115,11 @@
             </div>
         </div> 
         
-        <div class="block__three__wrapper">    
+        <div class="block__three__wrapper" uk-scrollspy="cls: uk-animation-fade; repeat: false; delay: 400;">    
             <div class="block__header">
                 <h1>Train Scheduler Application</h1>
             </div>
-            <hr>
+            <div class="uk-divider-small"></div>
             <div class="block__elem">
                 <h3 class="block__elem__header">
                     This application was developed as a model train scheduler. The application used Firebase for data storage and jQuery to append the inputted data onto the page. Basic mathematical calculations were implemented to calculate the predicted train times.
@@ -139,10 +140,10 @@
     </div>
     
     
-    <div class="block__four">
+    <div class="block__four" >
         <div class="block__four--mod"></div>
-        <div class="block__four__wrap">
-            <h2 class="block__four__head">
+        <div class="block__four__wrap" uk-scrollspy="cls: uk-animation-fade; repeat: false; delay: 400;" >
+            <h2 class="block__four__head"> 
                 Who am I?
             </h2>
             <p class="block__four__descrp">
@@ -163,5 +164,7 @@
 
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script> 
 </html>
 
