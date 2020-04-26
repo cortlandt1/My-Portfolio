@@ -284,7 +284,7 @@ a:active {
 }
 
 a:visited {
-    color: rgb(59, 59, 59)!important;
+    color: rgb(0, 0, 0)!important;
 }
 
 a:hover {
@@ -352,3 +352,259 @@ a:hover {
         height: 450px;
     }
   }
+
+  @media screen and (width: 414px) {
+    body {
+        max-width: 414px;
+    }
+
+    .block__button {
+        margin-left: 95px;
+        margin-right: 0px;
+    }
+
+    .block__nav {
+        display: none;
+    }
+
+    .block__name {
+        font-size: 39px;
+        padding-top: 175px;
+    }
+
+    .timbers__screenshot {
+        width: 320px;
+        height: 256px;
+    }
+
+    .block__elem__code__display {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .block__description {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .block__two__description {
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+
+    .block__elem__header {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+
+    .block__four__descrp {
+        padding-left: 0px; 
+        padding-right: 0px; 
+        margin-bottom: 20px;
+    }
+
+    .block__four {
+        padding-bottom: 50px;
+    }
+
+    .block__four--mod {
+        height: 450px;
+    }
+
+    .block__four__wrap {
+        margin-top: 133px;
+    }
+  }
+  
+  @media screen and (width: 320px) {
+    body {
+        max-width: 320px;
+    }
+
+    .block__button {
+        margin-left: 72px;
+        margin-right: 0px;
+    }
+
+    .block__nav {
+        display: none;
+    }
+
+    .block__name {
+        font-size: 36px;
+        padding-top: 175px;
+    }
+
+    .timbers__screenshot {
+        width: 320px;
+        height: 256px;
+    }
+
+    .block__elem__code__display {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .block__description {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .block__two__description {
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+
+    .block__elem__header {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+
+    .block__four__descrp {
+        font-size: 19px;
+        padding-left: 0px; 
+        padding-right: 0px; 
+        margin-bottom: 20px;
+    }
+
+    .block__four {
+        padding-bottom: 50px;
+    }
+
+    .block__four--mod {
+        height: 450px;
+    }
+
+    .block__four__wrap {
+        margin-top: 133px;
+    }
+  }
+ 
+  @media screen and (width: 411px) {
+    body {
+        max-width: 411px;
+    }
+
+    .block__button {
+        margin-left: 111px;
+        margin-right: 0px;
+    }
+
+    .block__nav {
+        display: none;
+    }
+
+    .block__name {
+        font-size: 36px;
+        padding-top: 175px;
+    }
+
+    .timbers__screenshot {
+        width: 320px;
+        height: 256px;
+    }
+
+    .block__elem__code__display {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .block__description {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .block__two__description {
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+
+    .block__elem__header {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+
+    .block__four__descrp {
+        font-size: 19px;
+        padding-left: 0px; 
+        padding-right: 0px; 
+        margin-bottom: 20px;
+    }
+
+    .block__four {
+        padding-bottom: 50px;
+    }
+
+    .block__four--mod {
+        height: 450px;
+    }
+
+    .block__four__wrap {
+        margin-top: 133px;
+    }
+  }
+ 
+  @media screen and (width: 360px) {
+    body {
+        max-width: 360px;
+    }
+
+    .block__button {
+        margin-left: 92px;
+        margin-right: 0px;
+    }
+
+    .block__nav {
+        display: none;
+    }
+
+    .block__name {
+        font-size: 36px;
+        padding-top: 175px;
+    }
+
+    .timbers__screenshot {
+        width: 320px;
+        height: 256px;
+    }
+
+    .block__elem__code__display {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .block__description {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .block__two__description {
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+
+    .block__elem__header {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+
+    .block__four__descrp {
+        font-size: 19px;
+        padding-left: 0px; 
+        padding-right: 0px; 
+        margin-bottom: 20px;
+    }
+
+    .block__four {
+        padding-bottom: 50px;
+    }
+
+    .block__four--mod {
+        height: 450px;
+    }
+
+    .block__four__wrap {
+        margin-top: 133px;
+    }
+  }
+ 
